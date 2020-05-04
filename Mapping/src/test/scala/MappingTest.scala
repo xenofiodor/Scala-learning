@@ -4,7 +4,7 @@ import org.junit.Assert.assertEquals
 class MappingTest {
   import Mapping._
 
-  // one-dimensional tests
+  // 1D tests
 
   val arr: Array[Int] = (5 to 10).toArray
 
@@ -17,7 +17,7 @@ class MappingTest {
   @Test def arrayProdTest(): Unit =
     assertEquals(151200, arrayProd(arr))
 
-  // two-dimensional tests
+  // 2D tests
 
   val multiArr: Array[Array[Int]] = Array.ofDim[Int](4, 4)
   for (i <- 0 to 3; j <- 0 to 3)
